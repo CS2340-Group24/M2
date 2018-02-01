@@ -18,9 +18,9 @@ jar  {
         attributes  'Implementation-Title' : 'M2' ,
                 'Implementation-Version' : version,
                 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
-                'Class-Path' : 'lib/resources.jar'
+                'Class-Path' : '../../lib/resources.jar'
     }
-    destinationDir = file('.')
+    //destinationDir = file('.') uncomment if you want it in main directory
     archiveName = 'm2.jar'
 }
 
